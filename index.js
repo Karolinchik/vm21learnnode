@@ -30,7 +30,7 @@ app.get('/values', (req, res) => {
 });
 
 app.get('/chickens', (reg, res) => {
-  res.render('chicken.njk');
+  res.render('chickens.njk');
 });
 
 
