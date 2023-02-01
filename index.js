@@ -29,6 +29,10 @@ app.get('/values', (req, res) => {
   res.render('values.njk');
 });
 
+app.get('/chickens', (reg, res) => {
+  res.render('chicken.njk');
+});
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`);
